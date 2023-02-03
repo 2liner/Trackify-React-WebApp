@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Trackify-React-WebApp/static/css/main.91c0ebae.css",
+    "main.js": "/Trackify-React-WebApp/static/js/main.1af545c9.js",
+    "index.html": "/Trackify-React-WebApp/index.html",
+    "main.91c0ebae.css.map": "/Trackify-React-WebApp/static/css/main.91c0ebae.css.map",
+    "main.1af545c9.js.map": "/Trackify-React-WebApp/static/js/main.1af545c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91c0ebae.css",
+    "static/js/main.1af545c9.js"
+  ]
+}
