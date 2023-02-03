@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.App {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#header {
+  background-color: #f0f0f0;
+  margin-top: -30px;
+}
+
+#page_name {
+  padding-top: 30px;
+  margin-left: 1cm;
+  font-size: 40px;
+}
+
+#page_name::after {
+  margin-left: -10%;
+  margin-top:0.2cm;
+  content: "";
+  display: block;
+  width: 110%;
+  height: 6px;
+  background-color: rgba(9, 41, 22, 0.25);
+}
+
+#fields_form {
+  margin-left: 1cm;
+  font-weight: 600;
+  font-size: 25px;
+  display: grid;
+  grid-template-columns: repeat(2, 0fr);
+  grid-gap: 13px;
+  margin-top: -0.3cm;
+}
+
+#field1, #field2 {
+  margin-top: 7px;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.buttons {
+  margin-left: 1cm;
+}
+
+#submit, #undoDelete {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 5px;
+  margin-top: 14px;
+  transform: translateX(-5px);
+  height: 35px;
+  background-color: #333;
+  color: white;
+  border-radius: 7px;
+  font-size: 22px;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+#submit:hover, #undoDelete:hover {
+  background-color: #555; /* darker gray color */
+  cursor: pointer;
+}
+
+#tasks_box {
+  margin-top: 1cm;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#task {
+  position: relative;
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 40px;
+  margin: 10px;
+  display: flex;
+}
+
+#task:hover {
+  transition: all 0.4s ease-in-out;
+  transform: translateY(-13px);
+}
+#task:not(:hover) {
+  transition: all 0.4s ease-in-out;
+}
+
+
+#task_name {
+  font-weight: 700;
+  transition: color 0.2s linear;
+  position: relative;
+  overflow: hidden;
+}
+
+#task_name:hover {
+  color:#fff;
+}
+
+#task_name::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(38, 37, 37);
+  z-index: -1;
+  transition: transform 0.5s;
+  transform-origin: 0 0;
+}
+
+#task_date:hover {
+  transform: translateY(-6px);
+  transition: all 0.1s ease-in-out;
+  border: 2px solid black;
+}
+#task_date:not(:hover) {
+  transition: all 0.1s ease-out;
+}
+
+#tasks_box div div {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #f2f2f2;
+  text-align: center;
+  margin: 10px;
+  align-items: center;
+  z-index: 0;
+  cursor: pointer;
+}
+
+#tasks_box div div::before {
+  transform: scaleX(0);
+}
+#tasks_box div div:hover::before {
+  transform: scaleX(1);
+}
+
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.footer_info, #name {
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0 30px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#linkedin, #github {
+  color: rgb(95, 95, 236);
+  text-decoration: none;
+}
+.footer_info:hover {
+  font-weight: bolder;
+}
+
+#footer::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 6px;
+  background-color: rgba(9, 41, 22, 0.25);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
