@@ -10,6 +10,6 @@ This task tracking app allows users to manage their tasks and deadlines efficien
 
 Trackify is a web-based task tracking application that requires an up-to-date browser for optimal performance. Currently, the app is only compatible with desktop computers and not compatible with smartphones.
 
-[Launch Trackify](https://2liner.github.io/Trackify-React-WebApp) - Github Pages
+[Launch Trackify](https://d0odi.github.io/Trackify-React-WebApp/) - Github Pages
 
 **Warning:** Tasks will be saved automatically in the local storage of a browser. However, clearing the cache will result in the loss of saved tasks.
