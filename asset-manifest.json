@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Trackify-React-WebApp/static/css/main.91c0ebae.css",
-    "main.js": "/Trackify-React-WebApp/static/js/main.1af545c9.js",
+    "main.js": "/Trackify-React-WebApp/static/js/main.cd52cbab.js",
     "index.html": "/Trackify-React-WebApp/index.html",
     "main.91c0ebae.css.map": "/Trackify-React-WebApp/static/css/main.91c0ebae.css.map",
-    "main.1af545c9.js.map": "/Trackify-React-WebApp/static/js/main.1af545c9.js.map"
+    "main.cd52cbab.js.map": "/Trackify-React-WebApp/static/js/main.cd52cbab.js.map"
   },
   "entrypoints": [
     "static/css/main.91c0ebae.css",
-    "static/js/main.1af545c9.js"
+    "static/js/main.cd52cbab.js"
   ]
 }

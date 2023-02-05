@@ -1,3 +1,0 @@
-# Trackify
-
-Github Pages deployment
